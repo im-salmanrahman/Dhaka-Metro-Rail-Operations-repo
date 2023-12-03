@@ -1,0 +1,8 @@
+Arrival Time,Next Station,Departure Time
+09:00 AM,Uttara,09:10 AM
+10:30 AM,Agargaon,10:40 AM
+11:00 AM,Motijheel,11:10 AM
+02:30 AM,Shahbag,02:40 AM
+09:00 PM,Uttara,09:10 PM
+10:30 PM,Agargaon,10:40 PM
+11:00 PM,Motijheel,11:10 PM

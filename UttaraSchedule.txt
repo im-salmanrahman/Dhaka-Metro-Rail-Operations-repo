@@ -1,0 +1,3 @@
+Arrival Time,Next Station,Departure Time
+10:30 PM,Agargaon,10:40 PM
+11:00 PM,Motijheel,11:10 PM

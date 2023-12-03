@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Dhaka Metro Rail Operations (NetBeans).jnlp">
+  <information>
+    <title>Dhaka Metro Rail Operations (NetBeans)</title>
+    <vendor>Salman</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Dhaka Metro Rail Operations (NetBeans)" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="mainpkg.MainApplicationClass"  name="Dhaka Metro Rail Operations (NetBeans)" />
+  <update check="always"/>
+</jnlp>
