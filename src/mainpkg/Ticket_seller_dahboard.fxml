@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="433.0" prefWidth="600.0" style="-fx-background-color: #008000;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.Ticket_seller_dahboardController">
+   <children>
+      <SplitPane dividerPositions="0.9788732394366197" layoutX="-1.0" layoutY="-7.0" orientation="VERTICAL" prefHeight="144.0" prefWidth="600.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" style="-fx-background-color: #8B0000;">
+               <children>
+                  <Label layoutX="80.0" layoutY="68.0" prefHeight="36.0" prefWidth="207.0" text="Main Dashboard" textFill="#f2f2f2">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" />
+        </items>
+      </SplitPane>
+      <Button layoutX="61.0" layoutY="198.0" mnemonicParsing="false" onAction="#ticketButtonOnMouseClicked" text="Ticket" textFill="#cd2525">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="61.0" layoutY="260.0" mnemonicParsing="false" onAction="#metrocardButtonOnMouseClicked" text="Metro Card" textFill="#ae1b1b">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="439.0" layoutY="317.0" mnemonicParsing="false" onAction="#signoutButtonOnMouseClicked" prefHeight="36.0" prefWidth="85.0" text="signout" textFill="#c31a1a">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="61.0" layoutY="325.0" mnemonicParsing="false" onAction="#controlRoomOperationButtonOnMoueClicked" prefHeight="36.0" prefWidth="152.0" text="Control Room Operation" textFill="#da2424" />
+   </children>
+</AnchorPane>
