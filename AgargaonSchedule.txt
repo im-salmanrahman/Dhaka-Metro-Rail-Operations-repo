@@ -1,0 +1,4 @@
+Arrival Time,Next Station,Departure Time
+09:00 AM,Uttara,09:10 AM
+10:30 AM,Agargaon,10:40 AM
+09:00 PM,Uttara,09:10 PM

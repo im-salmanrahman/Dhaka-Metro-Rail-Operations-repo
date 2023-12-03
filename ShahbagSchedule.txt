@@ -1,0 +1,4 @@
+Arrival Time,Next Station,Departure Time
+09:00 PM,Uttara,09:10 PM
+10:30 PM,Agargaon,10:40 PM
+11:00 PM,Motijheel,11:10 PM
