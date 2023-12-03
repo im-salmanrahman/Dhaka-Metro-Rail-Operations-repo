@@ -8,23 +8,23 @@ package mainpkg;
  *
  * @author yeasi
  */
-public class Train_operation_model {
-    private String trainNameTextField;
+public class Staff_maintain_model {
+    private String staffIdTextField;
     private String timeTextField;
     private String platformNameTextField;
 
-    public Train_operation_model(String trainNameTextField, String timeTextField, String platformNameTextField) {
-        this.trainNameTextField = trainNameTextField;
+    public Staff_maintain_model(String staffIdTextField, String timeTextField, String platformNameTextField) {
+        this.staffIdTextField = staffIdTextField;
         this.timeTextField = timeTextField;
         this.platformNameTextField = platformNameTextField;
     }
 
-    public String getTrainNameTextField() {
-        return trainNameTextField;
+    public String getStaffIdTextField() {
+        return staffIdTextField;
     }
 
-    public void setTrainNameTextField(String trainNameTextField) {
-        this.trainNameTextField = trainNameTextField;
+    public void setStaffIdTextField(String staffIdTextField) {
+        this.staffIdTextField = staffIdTextField;
     }
 
     public String getTimeTextField() {
@@ -45,7 +45,7 @@ public class Train_operation_model {
 
     @Override
     public String toString() {
-        return "Train_operation_model{" + "trainNameTextField=" + trainNameTextField + ", timeTextField=" + timeTextField + ", platformNameTextField=" + platformNameTextField + '}';
+        return "Staff_maintain_model{" + "staffIdTextField=" + staffIdTextField + ", timeTextField=" + timeTextField + ", platformNameTextField=" + platformNameTextField + '}';
     }
     
 }

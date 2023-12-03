@@ -24,14 +24,15 @@ public class Staff_maintainController implements Initializable {
     @FXML
     private TextField staffIdTextField;
     @FXML
-    private ComboBox<?> typeOfWorkComboBox;
+    private ComboBox<String> typeOfWorkComboBox;
 
     /**
      * Initializes the controller class.
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+        String[] typeOfWorkComboBox = {"Cleaning", "Train Check", "Station Check", "Sytem malfunction Check", ""};
+       /** typeOfWorkComboBox.getItems ().addAll(typeOfWorkComboBox);*/
     }    
     
 }
